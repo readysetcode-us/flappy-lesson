@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Flappy Game</title>
+        <style>
+            #screen {
+				width: 400px;
+				margin: auto;
+				margin-top: 50px;
+            }
+			
+			#text {
+				width: 400px;
+				margin: auto;
+			}
+        </style>
+		
+		<script type="text/javascript" src="phaser.min.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="game.js"></script>
+    </head>
+    <body>
+        <div id="screen"></div>
+		<div id="text">
+			<h1>Controls</h1>
+			<p><strong>Left Arrow:</strong> Rotate Clockwise</p>
+			<p><strong>Right Arrow:</strong> Rotate Counter-Clockwise</p>
+			<p><strong>Up Arrow:</strong> Scale up by 100%</p>
+			<p><strong>Spacebar:</strong> Scale down by 100% - until reaching normal size</p>
+		</div>
+    </body>
+</html>
